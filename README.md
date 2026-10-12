@@ -88,23 +88,6 @@ DB200112@nightcity:~$ _
 
 <br>
 
-<div align="center">
-
-## ▪▫▪ C O N T A C T ▪▫▪
-
-<a href="https://linkedin.com/in/TU_LINKEDIN">
-  <img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=F5A623&labelColor=0a0a0a" />
-</a>
-<a href="mailto:TU_MAIL">
-  <img src="https://img.shields.io/badge/Email-0a0a0a?style=for-the-badge&logo=gmail&logoColor=F5A623&labelColor=0a0a0a" />
-</a>
-<a href="https://TU_PORTFOLIO">
-  <img src="https://img.shields.io/badge/Portfolio-0a0a0a?style=for-the-badge&logo=firefox&logoColor=F5A623&labelColor=0a0a0a" />
-</a>
-
-</div>
-
-<br>
 
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=DB200112.DB200112&left_color=0a0a0a&right_color=F5A623&left_text=VISITAS" />
