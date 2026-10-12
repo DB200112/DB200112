@@ -5,8 +5,11 @@
 <!-- <div align="center"><img src="./assets/cyborg-banner.svg" width="100%" /></div> -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:f5a623&height=180&section=header&text=NIGHT%20CITY&fontColor=f5a623&fontSize=60&fontAlignY=40&desc=NETRUNNER%20PROFILE&descAlignY=65&descSize=18&descColor=888888&font=JetBrains%20Mono" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:F5A623&height=220&section=header&text=DB200112&fontColor=F5A623&fontSize=72&fontAlignY=35&desc=NIGHT%20CITY%20%2F%2F%20NETRUNNER&descAlignY=58&descSize=14&descColor=999999&font=JetBrains%20Mono" width="100%" />
 </div>
+
+<br>
+
 
 <!-- ================= TYPING ================= -->
 
