@@ -29,8 +29,8 @@ Aprendiendo, construyendo y rompiendo cosas en **Night City**.
 
 ### `> stack --list`
 
-<img src="https://skillicons.dev/icons?i=js,ts,python,react,nodejs,html,css,git,github,vscode,linux,bash&theme=dark&perline=6" />
-
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:F5A623&height=50&text=STACK&fontColor=000000&fontSize=28&fontAlignY=65&font=JetBrains%20Mono&descAlignY=80" width="60%" />
 </div>
 
 <br>
