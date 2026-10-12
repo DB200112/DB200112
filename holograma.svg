@@ -1,46 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="1000" height="500">
-  <rect width="1000" height="500" fill="#000000"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="55%" r="70%">
+      <stop offset="0%" stop-color="#151515"/>
+      <stop offset="60%" stop-color="#080808"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
+  </defs>
 
-  <g fill="#ffffff">
-    <animateTransform attributeName="transform" type="translate" values="0,0;0,-10;0,0;0,10;0,0" dur="6s" repeatCount="indefinite"/>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="300" rx="330" ry="270" fill="url(#halo)"/>
 
-    <!-- Cabeza -->
-    <ellipse cx="500" cy="360" rx="22" ry="26"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-14; 0,0; 0,14; 0,0" dur="8s" repeatCount="indefinite"/>
 
-    <!-- Cuello y torso -->
-    <path d="M 480,338 Q 500,330 520,338 L 528,235 Q 500,222 472,235 Z"/>
+    <g filter="url(#glow)" opacity="0.5">
+      <path d="M 380,75 Q 375,90 372,120 Q 368,180 365,240 Q 362,290 358,325 Q 353,355 348,380 Q 344,400 338,420 Q 318,426 295,433 Q 268,442 240,455 Q 210,468 185,483 Q 170,492 158,502 Q 148,510 142,518 L 138,522 Q 145,520 152,516 Q 158,512 162,508 L 168,500 L 172,508 L 178,502 L 184,510 L 190,502 L 196,510 L 202,500 Q 212,492 224,484 Q 242,472 262,463 Q 282,455 302,449 Q 322,443 340,440 Q 358,440 372,450 Q 380,458 388,468 Q 378,478 372,492 Q 366,508 370,522 Q 380,538 400,542 Q 420,538 430,522 Q 434,508 428,492 Q 422,478 412,468 Q 420,458 428,450 Q 442,440 460,440 Q 478,443 498,449 Q 518,455 538,463 Q 558,472 576,484 Q 588,492 598,500 L 602,510 L 608,502 L 614,510 L 620,502 L 626,508 L 632,500 L 636,508 Q 640,512 646,516 Q 652,520 658,522 L 660,518 Q 654,510 646,502 Q 630,488 612,478 Q 590,466 566,456 Q 540,446 512,440 Q 495,436 480,432 Q 470,424 465,410 Q 460,390 456,365 Q 452,340 449,310 Q 445,270 442,225 Q 438,175 434,125 Q 430,95 425,75 L 415,75 L 410,88 L 405,88 L 400,80 L 395,88 L 390,88 L 385,75 Z" fill="#ffffff"/>
+    </g>
 
-    <!-- Brazo izquierdo -->
-    <path d="M 478,320 Q 390,300 325,278 L 320,295 Q 385,318 472,338 Z"/>
-
-    <!-- Brazo derecho -->
-    <path d="M 522,320 Q 610,300 675,278 L 680,295 Q 615,318 528,338 Z"/>
-
-    <!-- Manos -->
-    <ellipse cx="322" cy="286" rx="10" ry="8"/>
-    <ellipse cx="678" cy="286" rx="10" ry="8"/>
-
-    <!-- Pierna izquierda -->
-    <path d="M 488,230 L 476,110 L 490,110 L 498,230 Z"/>
-
-    <!-- Pierna derecha -->
-    <path d="M 512,230 L 524,110 L 510,110 L 502,230 Z"/>
-
-    <!-- Pies -->
-    <ellipse cx="482" cy="102" rx="8" ry="6"/>
-    <ellipse cx="518" cy="102" rx="8" ry="6"/>
+    <g filter="url(#soft)">
+      <path d="M 380,75 Q 375,90 372,120 Q 368,180 365,240 Q 362,290 358,325 Q 353,355 348,380 Q 344,400 338,420 Q 318,426 295,433 Q 268,442 240,455 Q 210,468 185,483 Q 170,492 158,502 Q 148,510 142,518 L 138,522 Q 145,520 152,516 Q 158,512 162,508 L 168,500 L 172,508 L 178,502 L 184,510 L 190,502 L 196,510 L 202,500 Q 212,492 224,484 Q 242,472 262,463 Q 282,455 302,449 Q 322,443 340,440 Q 358,440 372,450 Q 380,458 388,468 Q 378,478 372,492 Q 366,508 370,522 Q 380,538 400,542 Q 420,538 430,522 Q 434,508 428,492 Q 422,478 412,468 Q 420,458 428,450 Q 442,440 460,440 Q 478,443 498,449 Q 518,455 538,463 Q 558,472 576,484 Q 588,492 598,500 L 602,510 L 608,502 L 614,510 L 620,502 L 626,508 L 632,500 L 636,508 Q 640,512 646,516 Q 652,520 658,522 L 660,518 Q 654,510 646,502 Q 630,488 612,478 Q 590,466 566,456 Q 540,446 512,440 Q 495,436 480,432 Q 470,424 465,410 Q 460,390 456,365 Q 452,340 449,310 Q 445,270 442,225 Q 438,175 434,125 Q 430,95 425,75 L 415,75 L 410,88 L 405,88 L 400,80 L 395,88 L 390,88 L 385,75 Z" fill="#ffffff"/>
+    </g>
   </g>
 
-  <!-- Scanlines sutiles, muy tenues -->
-  <g opacity="0.08" fill="#ffffff">
-    <rect y="40" width="1000" height="1"/>
-    <rect y="90" width="1000" height="1"/>
-    <rect y="140" width="1000" height="1"/>
-    <rect y="190" width="1000" height="1"/>
-    <rect y="240" width="1000" height="1"/>
-    <rect y="290" width="1000" height="1"/>
-    <rect y="340" width="1000" height="1"/>
-    <rect y="390" width="1000" height="1"/>
-    <rect y="440" width="1000" height="1"/>
+  <g fill="#ffffff" opacity="0.5">
+    <circle cx="180" cy="200" r="1">
+      <animate attributeName="cy" values="200;140;200" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="260" r="1.2">
+      <animate attributeName="cy" values="260;200;260" dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.05;0.4" dur="13s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="240" cy="380" r="0.8">
+      <animate attributeName="cy" values="380;340;380" dur="15s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.05;0.3" dur="15s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="560" cy="420" r="1">
+      <animate attributeName="cy" values="420;370;420" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="320" cy="140" r="0.9">
+      <animate attributeName="cy" values="140;100;140" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35;0.05;0.35" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="160" r="1.1">
+      <animate attributeName="cy" values="160;110;160" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;0.1;0.45" dur="12s" repeatCount="indefinite"/>
+    </circle>
   </g>
 </svg>
