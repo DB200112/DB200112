@@ -79,8 +79,6 @@ DB200112@nightcity:~$ _
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/DB200112/DB200112/main/profile-night-rainbow.svg" width="100%" />
-</div>
 
 ## ▪▫▪ C O N T A C T ▪▫▪
 
