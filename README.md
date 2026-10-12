@@ -70,6 +70,16 @@ DB200112@nightcity:~$ _
 
 <div align="center">
 
+<div align="center">
+
+## ▪▫▪ C O N T R I B U T I O N S ▪▫▪
+
+<img src="https://raw.githubusercontent.com/DB200112/DB200112/output/github-contribution-grid-snake.svg" width="100%" />
+
+</div>
+
+<br>
+
 ## ▪▫▪ 3 D C O N T R I B ▪▫▪
 
 <img src="https://raw.githubusercontent.com/DB200112/DB200112/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
