@@ -97,7 +97,7 @@ DB200112@nightcity:~$ _
 <br>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=DB200112&label=VISITAS&color=F5A623&style=flat-square" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=DB200112.DB200112&left_color=0a0a0a&right_color=F5A623&left_text=VISITAS" />
 </div>
 
 <br>
